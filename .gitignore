@@ -1,1 +1,9 @@
 /envFIDO
+```gitignore id="9r5jlwm"
+__pycache__/
+*.pyc
+.DS_Store
+*.sqlite3
+.venv/
+.env
+```
