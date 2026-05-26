@@ -175,7 +175,7 @@ import os
 import google.generativeai as genai
 
 # Configure Gemini
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyAfebkqWPcSiPSMYxhC8izYiEtKJ9-B7ms")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "ApI_key")
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Create chatbot session
